@@ -12,10 +12,12 @@
 &nbsp;&nbsp;&nbsp;&nbsp;You can start at any cell in the first column of the matrix, and traverse the grid in the following way:
 
 &nbsp;&nbsp;&nbsp;&nbsp;From a cell (row, col), you can move to any of the cells: 
-&nbsp;&nbsp;&nbsp;&nbsp;- (row - 1, col + 1)
-&nbsp;&nbsp;&nbsp;&nbsp;- (row, col + 1)
-&nbsp;&nbsp;&nbsp;&nbsp;- (row + 1, col + 1)
-&nbsp;&nbsp;&nbsp;&nbsp;such that the value of the cell you move to, should be strictly bigger than the value of the current cell.
+<ul>
+  <li>(row - 1, col + 1)</li>
+  <li>(row, col + 1)</li>
+  <li>(row + 1, col + 1)</li>
+</ul>
+&nbsp;&nbsp;&nbsp;&nbsp; such that the value of the cell you move to, should be strictly bigger than the value of the current cell.
 </p>
 
 <p>
